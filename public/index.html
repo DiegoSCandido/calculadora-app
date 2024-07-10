@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Calcário</title>
+</head>
+<body>
+    <h1>Calculadora de Dosagem de Calcário</h1>
+    <form id="calcario-form">
+        <label>Área do talhão (ha): <input type="number" step="0.01" id="area" required></label><br>
+        <label>Ca (cmol/dm³): <input type="number" step="0.01" id="ca" required></label><br>
+        <label>S (cmol/dm³): <input type="number" step="0.01" id="s" required></label><br>
+        <label>Mg (cmol/dm³): <input type="number" step="0.01" id="mg" required></label><br>
+        <label>Al (cmol/dm³): <input type="number" step="0.01" id="al" required></label><br>
+        <label>K (cmol/dm³): <input type="number" step="0.01" id="k" required></label><br>
+        <label>B (cmol/dm³): <input type="number" step="0.01" id="b" required></label><br>
+        <label>H + Al (cmol/dm³): <input type="number" step="0.01" id="hAl" required></label><br>
+        <label>V% desejado: <input type="number" step="0.01" id="vDesejado" required></label><br>
+        <label>PRNT (%): <input type="number" step="0.01" id="prnt" required></label><br>
+        <button type="submit">Calcular</button>
+    </form>
+    <h2>Resultados</h2>
+    <div id="resultados"></div>
+    <script src="./script.js"></script>
+    
+</body>
+</html>

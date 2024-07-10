@@ -1,0 +1,16 @@
+{
+  "name": "calculadora-app",
+  "version": "1.0.0",
+  "description": "Calculadora MaxiSolo: calculadora de dosagem de calcario e produtos MaxiSolo",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node/app.js"
+  },
+  "keywords": [],
+  "author": "Diego Candido",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
